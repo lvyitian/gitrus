@@ -945,6 +945,7 @@ dependencies = [
  "chrono",
  "git2",
  "jwt-simple",
+ "lazy_static",
  "lettre",
  "mongodb",
  "pbkdf2 0.11.0",
