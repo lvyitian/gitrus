@@ -7,6 +7,7 @@ use simple_log::{info, LogConfigBuilder};
 
 pub mod user;
 pub mod config;
+pub mod database;
 
 lazy_static!{
     static ref SERVER_CONFIG:Mutex<config::Config>=Mutex::new(config::Config{port:None,database:None});
